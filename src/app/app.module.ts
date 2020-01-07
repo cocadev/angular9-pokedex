@@ -8,9 +8,10 @@ import { SharedModule } from './common/shared/shared.module';
 import { AppRoutingModule } from './routes/routes.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent],
+  declarations: [AppComponent, HomeComponent, AboutComponent],
   imports: [
     BrowserModule,
     ServiceWorkerModule.register('/ngsw-worker.js', {
