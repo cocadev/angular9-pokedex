@@ -33,7 +33,7 @@
     "@ngx-lite/util": "0.0.0",
     "blueprint-css": "3.1.1",
     "normalize.css": "^8.0.1",
-    "rxjs": "~6.5.3",
+    "rxjs": "^6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
   },
