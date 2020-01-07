@@ -7,9 +7,10 @@ import { environment } from '../environments/environment';
 import { SharedModule } from './common/shared/shared.module';
 import { AppRoutingModule } from './routes/routes.module';
 import { AppComponent } from './app.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, HomeComponent],
   imports: [
     BrowserModule,
     ServiceWorkerModule.register('/ngsw-worker.js', {
