@@ -3,8 +3,8 @@ import { Title } from '@angular/platform-browser';
 import { Observable, Subject } from 'rxjs';
 import { switchMap, startWith, tap, map } from 'rxjs/operators';
 
-import { Pokemon } from './../../common/interfaces/pokemon';
-import { PokemonDataService } from '../../common/services/pokemon-data.service';
+import { Pokemon } from '../../../common/interfaces/pokemon';
+import { PokemonDataService } from '../../../common/services/pokemon-data.service';
 
 @Injectable()
 export class PokemonService {

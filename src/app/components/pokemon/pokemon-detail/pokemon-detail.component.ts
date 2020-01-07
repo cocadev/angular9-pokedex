@@ -4,8 +4,8 @@ import { Title } from '@angular/platform-browser';
 import { Observable } from 'rxjs';
 import { map, distinctUntilChanged, mergeMap, tap } from 'rxjs/operators';
 
-import { Pokemon } from './../../common/interfaces/pokemon';
-import { PokemonDataService } from './../../common/services/pokemon-data.service';
+import { Pokemon } from '../../../common/interfaces/pokemon';
+import { PokemonDataService } from '../../../common/services/pokemon-data.service';
 
 export enum MODAL_KEYS {
   RIGHT_ARROW = 37,

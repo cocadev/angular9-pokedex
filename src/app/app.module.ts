@@ -5,7 +5,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 
 import { SharedModule } from './common/shared/shared.module';
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule } from './routes/routes.module';
 import { AppComponent } from './app.component';
 
 @NgModule({
